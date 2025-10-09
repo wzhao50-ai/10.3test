@@ -1,0 +1,30 @@
+Sure, here's the contents for the file: /interactive-cotton-candy/src/styles/main.css
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fce4ec;
+}
+
+.cotton-candy {
+    width: 200px;
+    height: 200px;
+    background-color: #b3e5fc; /* Baby blue */
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.stick {
+    width: 10px;
+    height: 100px;
+    background-color: #ffccbc;
+    position: absolute;
+    bottom: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+}

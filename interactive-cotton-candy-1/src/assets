@@ -1,0 +1,10 @@
+interactive-cotton-candy
+├── src
+│   ├── index.html
+│   ├── styles
+│   │   └── main.css
+│   ├── scripts
+│   │   └── main.js
+│   └── assets
+├── .gitignore
+└── README.md
